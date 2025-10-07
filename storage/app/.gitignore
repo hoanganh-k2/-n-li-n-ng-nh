@@ -4,3 +4,4 @@
 
 # Allow img directory to be tracked
 !public/img/
+!public/img/**
