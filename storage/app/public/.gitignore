@@ -1,6 +1,2 @@
-# Allow all files in this directory to be tracked by Git
-# This enables committing uploaded images and assets
-
-# Uncomment the lines below if you want to ignore specific file types:
-# *.tmp
-# *.log
+*
+!.gitignore

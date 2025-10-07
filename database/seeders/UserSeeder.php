@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
         $user = User::create([
             'name' => 'User Abi Noval Fauzi',
             'code' => bin2hex(random_bytes(20)),
-            'email' => 'usernovalabi612@gmail.com',
+            'email' => 'user@gmail.com',
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'phone_number' => '08174835153', // password
@@ -31,7 +31,7 @@ class UserSeeder extends Seeder
 
         $faker = \Faker\Factory::create();
 
-        for ($i=1; $i < 200; $i++) {
+        for ($i = 1; $i < 200; $i++) {
             $user = User::create([
                 'name' => $faker->name(),
                 'code' => bin2hex(random_bytes(20)),
